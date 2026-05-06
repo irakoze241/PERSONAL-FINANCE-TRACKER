@@ -7,20 +7,20 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔐 **Secure Auth** — JWT access & refresh tokens, bcrypt password hashing, silent token rotation
-- 💸 **Transactions** — Full CRUD with search, filters (type, category, date, amount), sorting, and pagination
-- 🎯 **Budgets** — Per-category spending limits with real-time progress bars, alert thresholds, and exceeded/near-limit badges
-- 📊 **Analytics** — Period-selectable (week/month/quarter/year) financial summary with income vs expense bar charts, pie breakdowns, savings trend, and category tables
-- 🏠 **Dashboard** — Stat cards, cash flow area chart, expenses donut chart, and recent transactions at a glance
-- ⚙️ **Settings** — Profile management, currency selector, account deletion with confirmation
-- 🚦 **Rate Limiting** — Per-user API rate limiting (60 req/min) via slowapi with graceful 429 responses
-- 📱 **Responsive** — Mobile-friendly layout, sidebar collapses on small screens
+-  **Secure Auth** — JWT access & refresh tokens, bcrypt password hashing, silent token rotation
+-  **Transactions** — Full CRUD with search, filters (type, category, date, amount), sorting, and pagination
+-  **Budgets** — Per-category spending limits with real-time progress bars, alert thresholds, and exceeded/near-limit badges
+-  **Analytics** — Period-selectable (week/month/quarter/year) financial summary with income vs expense bar charts, pie breakdowns, savings trend, and category tables
+-  **Dashboard** — Stat cards, cash flow area chart, expenses donut chart, and recent transactions at a glance
+-  **Settings** — Profile management, currency selector, account deletion with confirmation
+-  **Rate Limiting** — Per-user API rate limiting (60 req/min) via slowapi with graceful 429 responses
+-  **Responsive** — Mobile-friendly layout, sidebar collapses on small screens
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Dashboard
 ![Dashboard](docs/screenshots/dashboard.png)
@@ -50,7 +50,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -115,7 +115,7 @@ npm run dev
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 File: `backend/.env`
 
@@ -129,7 +129,7 @@ File: `backend/.env`
 | `REFRESH_TOKEN_EXPIRE_DAYS`     | `7`                           | Refresh token lifetime (days)       |
 | `RATE_LIMIT_PER_MINUTE`         | `60`                          | Default API rate limit              |
 
-> ⚠️ **Always set a strong `SECRET_KEY` in production.** Never commit your `.env` to version control.
+>  **Always set a strong `SECRET_KEY` in production.** Never commit your `.env` to version control.
 
 ---
 
@@ -187,7 +187,7 @@ Full interactive docs: **http://localhost:8000/docs**
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 PERSONAL FINANCE TRACKER/
@@ -242,7 +242,7 @@ PERSONAL FINANCE TRACKER/
 
 ---
 
-## 🗄️ MongoDB Collections
+##  MongoDB Collections
 
 | Collection     | Description                                  | Key Indexes                                             |
 |----------------|----------------------------------------------|---------------------------------------------------------|
@@ -254,7 +254,7 @@ All indexes are created automatically on server startup.
 
 ---
 
-## 🔒 Security Notes
+##  Security Notes
 
 - Passwords are hashed with **bcrypt** — never stored in plain text
 - JWT tokens are signed with `HS256` — set a strong, random `SECRET_KEY`
@@ -265,12 +265,12 @@ All indexes are created automatically on server startup.
 
 ---
 
-## 📝 Transaction Categories
+##  Transaction Categories
 
 `food` · `transport` · `housing` · `entertainment` · `health` · `education` · `shopping` · `utilities` · `savings` · `investment` · `salary` · `freelance` · `other`
 
 ---
 
-## 📄 License
+##  License
 
 MIT — free to use, modify, and distribute.
