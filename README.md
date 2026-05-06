@@ -3,7 +3,6 @@
 > A full-stack personal finance tracker built with **FastAPI**, **React 19 (Vite)**, and **MongoDB**.  
 > Track income, expenses, budgets, and analytics in one beautiful dark-mode dashboard.
 
-![Dashboard](docs/screenshots/dashboard.png)
 
 ---
 
@@ -17,22 +16,6 @@
 -  **Settings** — Profile management, currency selector, account deletion with confirmation
 -  **Rate Limiting** — Per-user API rate limiting (60 req/min) via slowapi with graceful 429 responses
 -  **Responsive** — Mobile-friendly layout, sidebar collapses on small screens
-
----
-
-##  Screenshots
-
-### Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
-
-### Transactions
-![Transactions](docs/screenshots/transactions.png)
-
-### Analytics
-![Analytics](docs/screenshots/analytics.png)
-
-### Budgets
-![Budgets](docs/screenshots/budgets.png)
 
 ---
 
