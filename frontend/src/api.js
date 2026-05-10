@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000/api/v1";
+const API_BASE = import.meta.env.VITE_API_URL || "https://finance-tracker-api-utah.onrender.com";
 
 // ── Token helpers ─────────────────────────────────────────────────────────────
 export const getAccessToken = () => localStorage.getItem("access_token");
